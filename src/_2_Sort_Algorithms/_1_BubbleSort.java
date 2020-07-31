@@ -4,19 +4,26 @@ public class _1_BubbleSort {
     public static void main(String[] args) {
 
         int[] intArray = {20, 35, -15, 7, 55, 1, -22};
-        for (int lastUnsortedIndex = intArray.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
+        // bubbleSort(intArray);
+        bubblesort1(intArray);
+    }
+
+    static int[] bubbleSort(int[] array) {
+        for (int lastUnsortedIndex = array.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
             for (int i = 0; i < lastUnsortedIndex; i++) {
-                if (intArray[i] > intArray[i + 1]) {
-                    swap(intArray, i, i + 1);
+                if (array[i] > array[i + 1]) {
+                    swap(array, i, i + 1);
                 }
             }
         }
-        for (int i = 0; i <intArray.length ; i++) {
-            System.out.println(intArray[i]);
+        System.out.println("Option1. Sorted array after the optimization: ");
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " ");
         }
+        return array;
     }
 
-    public static void swap(int[] array, int i, int j) {
+    static void swap(int[] array, int i, int j) {
         if (i == j) {
             return;
         }
@@ -26,4 +33,27 @@ public class _1_BubbleSort {
 
     }
 
+    static int[] bubblesort1(int[] array) {
+        for (int i = 0; i < array.length - 1; i++)
+            for (int j = 0; j < array.length - i - 1; j++)
+                if (array[j] > array[j + 1]) {
+                    swap1(array, i, j);
+                }
+
+        System.out.println("Option1. Sorted array after the optimization: ");
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " ");
+        }
+        return array;
+    }
+
+    private static void swap1(int[] array, int i, int j) {
+        if (i == j) {
+            return;
+        }
+        int temp = array[j];
+        array[j] = array[j + 1];
+        array[j + 1] = temp;
+    }
 }
+
