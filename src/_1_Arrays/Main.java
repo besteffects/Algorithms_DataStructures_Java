@@ -14,6 +14,18 @@ public class Main {
 
         for (int i = 0; i < intArray.length; i++) {
             System.out.println(intArray[i]);
+
+
         }
+
+        //retrieving an element without knowing its index
+        int index=-1;
+        for (int i = 0; i <intArray.length ; i++) {
+            if (intArray[i]==7){
+                index=i;
+                break;
+            }
+        }
+        System.out.println("index = " +index);
     }
 }
