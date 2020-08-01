@@ -10,7 +10,7 @@ public class _1_BubbleSort {
 
     static int[] bubbleSort(int[] array) {
         for (int lastUnsortedIndex = array.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
-            for (int i = 0; i < lastUnsortedIndex; i++) { //we don't need equals because we compare i and i+1
+            for (int i = 0; i < lastUnsortedIndex; i++) { //we don't need equals because we compare i and i+1 (out of bounds)
                 if (array[i] > array[i + 1]) {
                     swap(array, i, i + 1);
                 }
