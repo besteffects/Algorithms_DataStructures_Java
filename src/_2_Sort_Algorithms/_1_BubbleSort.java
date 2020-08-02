@@ -8,9 +8,10 @@ public class _1_BubbleSort {
         bubblesort1(intArray);
     }
 
+    //bigger bubbles go to the end of the array. Sorted part grows from right to left
     static int[] bubbleSort(int[] array) {
         for (int lastUnsortedIndex = array.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
-            for (int i = 0; i < lastUnsortedIndex; i++) { //we don't need equals because we compare i and i+1 (out of bounds)
+            for (int i = 0; i < lastUnsortedIndex; i++) { //we don't need equals because we compare i and i+1 (out of bounds). inner loop only until unsorted index because sorted values are already in the end
                 if (array[i] > array[i + 1]) {
                     swap(array, i, i + 1);
                 }
