@@ -10,14 +10,14 @@ public class _4_ShellSort {
         for (int gap = array.length / 2; gap > 0; gap /= 2) {
 
             for (int i = gap; i < array.length; i++) {
-                int selectedElement = array[i];
-                int j = i;
+                int selectedElement = array[i]; //array[i] is array[gap], element we essentially look at
+                int j = i; //j is used for traversing
 
-                while (j >= gap && array[j - gap] > selectedElement) {
-                    array[j] = array[j - gap];
-                    j -= gap;
+                while (j >= gap && array[j - gap] > selectedElement) { //if j==gap we hit the front of the array 20>7 (array[0]>array[3])
+                    array[j] = array[j - gap]; //compare 7 with j-gap (j-3) assign array[0] to array[3], 20 to 7
+                    j -= gap; //subtract the gap from j (j=j-gap)
                 }
-                array[j]=selectedElement;
+                array[j]=selectedElement; //we found the insertion point for 7 (selected element). Assign selected element to insertion point (7 to 20)
             }
         }
 
