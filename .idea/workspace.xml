@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aef2c581-6037-489b-b27b-cc283be95644" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/_2_Sort_Algorithms/_4_ShellSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_Sort_Algorithms/_1_BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_Sort_Algorithms/_1_BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_Sort_Algorithms/_2_SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_Sort_Algorithms/_2_SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_2_Sort_Algorithms/_3_InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_Sort_Algorithms/_3_InsertionSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/_2_SelectionSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -36,11 +36,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/_3_InsertionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="29" />
+            <state relative-caret-position="180">
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/_4_ShellSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -76,16 +85,17 @@
       <list>
         <option value="$PROJECT_DIR$/src/_1_Arrays/Test.java" />
         <option value="$PROJECT_DIR$/src/_1_Arrays/Main.java" />
-        <option value="$PROJECT_DIR$/src/_2_Sort_Algorithms/_3_InsertionSort.java" />
         <option value="$PROJECT_DIR$/src/_2_Sort_Algorithms/_1_BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/_2_Sort_Algorithms/_2_SelectionSort.java" />
+        <option value="$PROJECT_DIR$/src/_2_Sort_Algorithms/_4_ShellSort.java" />
+        <option value="$PROJECT_DIR$/src/_2_Sort_Algorithms/_3_InsertionSort.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="732" />
-    <option name="y" value="26" />
-    <option name="width" value="680" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="694" />
+    <option name="y" value="23" />
+    <option name="width" value="746" />
     <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -94,6 +104,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,7 +131,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -139,7 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._3_InsertionSort">
+  <component name="RunManager" selected="Application._4_ShellSort">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_1_Arrays.Main" />
       <module name="Algorithms_DataStructures" />
@@ -192,8 +202,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_4_ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2_Sort_Algorithms._4_ShellSort" />
+      <module name="Algorithms_DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_2_Sort_Algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._4_ShellSort" />
         <item itemvalue="Application._3_InsertionSort" />
         <item itemvalue="Application._2_SelectionSort" />
         <item itemvalue="Application._1_BubbleSort" />
@@ -215,9 +239,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="801" extended-state="6" />
+    <frame x="694" y="23" width="746" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13376252" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27414772" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -226,12 +251,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928674" weight="0.32492998" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928674" visible="true" weight="0.32485875" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45938376" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49928674" visible="true" weight="0.32863188" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928674" weight="0.32768363" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007133" side_tool="true" weight="0.32909605" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -253,10 +278,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/_3_InsertionSort.java">
+    <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/_2_SelectionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="29" />
+        <state relative-caret-position="330">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -270,10 +295,17 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/_2_SelectionSort.java">
+    <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/_4_ShellSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        <state relative-caret-position="133">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/_3_InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
         </state>
       </provider>
     </entry>
