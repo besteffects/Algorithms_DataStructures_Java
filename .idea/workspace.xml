@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aef2c581-6037-489b-b27b-cc283be95644" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_2_Sort_Algorithms/factorial/Factorial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_2_Sort_Algorithms/factorial/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_Sort_Algorithms/factorial/Factorial.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,12 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/factorial/Factorial.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-              <folding>
-                <element signature="e#107#108#0" expanded="true" />
-                <element signature="e#140#141#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="289">
+              <caret line="33" column="160" selection-start-line="33" selection-start-column="160" selection-end-line="33" selection-end-column="160" />
             </state>
           </provider>
         </entry>
@@ -262,7 +258,7 @@
     <frame x="753" y="23" width="687" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27286822" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.27286822" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -272,7 +268,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928674" visible="true" weight="0.32485875" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.45938376" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45903954" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -331,12 +327,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/factorial/Factorial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding>
-            <element signature="e#107#108#0" expanded="true" />
-            <element signature="e#140#141#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="33" column="160" selection-start-line="33" selection-start-column="160" selection-end-line="33" selection-end-column="160" />
         </state>
       </provider>
     </entry>
