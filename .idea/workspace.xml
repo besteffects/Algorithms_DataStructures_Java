@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aef2c581-6037-489b-b27b-cc283be95644" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/_2_Sort_Algorithms/_5_MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_Sort_Algorithms/factorial/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_Sort_Algorithms/factorial/Factorial.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,17 +47,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/_4_ShellSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="65" lean-forward="true" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+            <state relative-caret-position="60">
+              <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/factorial/Factorial.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/factorial/Factorial.java">
+        <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/_5_MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="33" column="160" selection-start-line="33" selection-start-column="160" selection-end-line="33" selection-end-column="160" />
+            <state relative-caret-position="345">
+              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -98,6 +107,7 @@
         <option value="$PROJECT_DIR$/src/_2_Sort_Algorithms/_3_InsertionSort.java" />
         <option value="$PROJECT_DIR$/src/_2_Sort_Algorithms/_4_ShellSort.java" />
         <option value="$PROJECT_DIR$/src/_2_Sort_Algorithms/factorial/Factorial.java" />
+        <option value="$PROJECT_DIR$/src/_2_Sort_Algorithms/_5_MergeSort.java" />
       </list>
     </option>
   </component>
@@ -131,13 +141,6 @@
               <item name="Algorithms_DataStructures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="_2_Sort_Algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms_DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms_DataStructures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_2_Sort_Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="factorial" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithms_DataStructures" type="b2602c69:ProjectViewProjectNode" />
@@ -267,7 +270,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928674" visible="true" weight="0.32485875" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928674" weight="0.32485875" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45903954" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -318,17 +321,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/_4_ShellSort.java">
+    <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/factorial/Factorial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="65" lean-forward="true" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+        <state relative-caret-position="167">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/factorial/Factorial.java">
+    <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/_4_ShellSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="33" column="160" selection-start-line="33" selection-start-column="160" selection-end-line="33" selection-end-column="160" />
+        <state relative-caret-position="60">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/_5_MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
         </state>
       </provider>
     </entry>
