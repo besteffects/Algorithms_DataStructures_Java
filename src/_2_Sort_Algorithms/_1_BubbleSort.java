@@ -4,7 +4,7 @@ public class _1_BubbleSort {
     public static void main(String[] args) {
 
         int[] intArray = {20, 35, -15, 7, 55, 1, -22};
-        bubbleSort(intArray);
+      //  bubbleSort(intArray);
         bubblesort1(intArray);
     }
 
