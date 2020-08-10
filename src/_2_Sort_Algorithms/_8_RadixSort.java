@@ -20,18 +20,21 @@ public class _8_RadixSort {
     public static void radixSingleSort(int[] input, int position, int radix) {
         //stores how many items we are going to be sorting
         int numItems = input.length;
+
         //create array that is big enough to hold all possible values. Length will be 10
         int[] countArray = new int[radix];
 
+        //counts how many values have a certain digit in a position we are looking at
         for (int value : input) {
-            countArray[getDigit(position, value, radix)]++; //this method will return 0 to 9 and we will increment by 1
-        }
-        //adjust the count array. Instead of containing counts it contains the number of values that have that digit or less than that digit int the position that we are working with
-        for (int j = 1; j < radix; j++) {
-            countArray[j] += countArray[j - 1];
+            countArray[getDigit(position, value, radix)]++; //this method will return 0 to 9 and we will increment by 1. When this loop will be finished we will have a conventional count array
         }
 
-        //copying values into a temporary array, preserving a duplicates
+        //adjust the count array. Instead of containing counts it contains the number of values that have that digit or less than that digit int the position that we are working with
+        for (int j = 1; j < radix; j++) { //we do not need j=0 because the number of 0 is 0
+            countArray[j] += countArray[j - 1]; //e.g. if j=3 it adds 0,1,2 and 3 and sums up values
+        }
+
+        //copying values into a temporary array, preserving a duplicates (from right to left)
         int[] temp = new int[numItems];
         for (int tempIndex = numItems - 1; tempIndex >= 0; tempIndex--) {
             //tempIndex starts in the end and moves right to left.
@@ -48,7 +51,7 @@ public class _8_RadixSort {
     }
 
     public static int getDigit(int position, int value, int radix) {
-        return value / (int) Math.pow(radix, position) % radix;
+        return value / (int) Math.pow(radix, position) % radix; //(int) because we don't want a floating point value returned
         //Math.pow takes the first parameter and raises it to the second parameter
         //we pass in position 0 because we are starting from 0. 4725 for value and 10 for radix
         //0 position 4725/Math.pow(10,0)%10 = 4725/1 %10=472 and remainder 5, so we will return 5
