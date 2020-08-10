@@ -18,7 +18,7 @@ It also can be implemented the same way, but with a minimum TODO
 
             for (int i = 1; i <= lastUnsortedIndex; i++) { //comparing the last element as well, this is why we use =<. Going from right to left
                 if (array[i] > array[largest]) { //in bubble sort: if array[i]>array[i+1]{swap(i,i+1))}
-                    largest = i; //Example: 35>20 -> Largest is array[1]=1; int[] intArray = {20, 35, -15, 7, 55, 1, -22};
+                    largest = i; //Example: 35>20 -> Largest is array[1]=1; int[] intArray = {20, 35, -15, 7, 55, 1, -22}; move largest to the end
                 }
             }
             swap(array, largest, lastUnsortedIndex); //lastUnsortedIndex -> last element in unsorted partition
