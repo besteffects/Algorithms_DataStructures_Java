@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aef2c581-6037-489b-b27b-cc283be95644" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/_2_Sort_Algorithms/challenges/MergeSortReversed.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_Sort_Algorithms/_8_RadixSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_Sort_Algorithms/_8_RadixSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_2_Sort_Algorithms/_5_MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_Sort_Algorithms/_5_MergeSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,11 +36,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/_8_RadixSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
+            <state relative-caret-position="164">
               <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/challenges/MergeSortReversed.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/_5_MergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -91,20 +110,21 @@
         <option value="$PROJECT_DIR$/src/_2_Sort_Algorithms/_3_InsertionSort.java" />
         <option value="$PROJECT_DIR$/src/_2_Sort_Algorithms/_4_ShellSort.java" />
         <option value="$PROJECT_DIR$/src/_2_Sort_Algorithms/factorial/Factorial.java" />
-        <option value="$PROJECT_DIR$/src/_2_Sort_Algorithms/_5_MergeSort.java" />
         <option value="$PROJECT_DIR$/src/_2_Sort_Algorithms/factorial/_6_QuickSort.java" />
         <option value="$PROJECT_DIR$/src/_2_Sort_Algorithms/_6_QuickSort.java" />
         <option value="$PROJECT_DIR$/src/_2_Sort_Algorithms/_1_BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/_2_Sort_Algorithms/_7_CountingSort.java" />
         <option value="$PROJECT_DIR$/src/_2_Sort_Algorithms/_2_SelectionSort.java" />
         <option value="$PROJECT_DIR$/src/_2_Sort_Algorithms/_8_RadixSort.java" />
+        <option value="$PROJECT_DIR$/src/_2_Sort_Algorithms/challenges/MergeSortReversed.java" />
+        <option value="$PROJECT_DIR$/src/_2_Sort_Algorithms/_5_MergeSort.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="737" />
+    <option name="x" value="610" />
     <option name="y" value="25" />
-    <option name="width" value="703" />
+    <option name="width" value="830" />
     <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -141,6 +161,13 @@
             </path>
             <path>
               <item name="Algorithms_DataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms_DataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="_2_Sort_Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="challenges" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms_DataStructures" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -164,13 +191,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._8_RadixSort">
-    <configuration name="_1_BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2_Sort_Algorithms._1_BubbleSort" />
+  <component name="RunManager" selected="Application.MergeSortReversed">
+    <configuration name="MergeSortReversed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2_Sort_Algorithms.challenges.MergeSortReversed" />
       <module name="Algorithms_DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_2_Sort_Algorithms.*" />
+          <option name="PATTERN" value="_2_Sort_Algorithms.challenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,8 +205,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_5_MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2_Sort_Algorithms._5_MergeSort" />
+    <configuration name="_1_BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2_Sort_Algorithms._1_BubbleSort" />
       <module name="Algorithms_DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -232,11 +259,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSortReversed" />
         <item itemvalue="Application._8_RadixSort" />
         <item itemvalue="Application._7_CountingSort" />
         <item itemvalue="Application._1_BubbleSort" />
         <item itemvalue="Application._6_QuickSort" />
-        <item itemvalue="Application._5_MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -254,10 +281,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="737" y="25" width="703" height="797" extended-state="0" />
+    <frame x="610" y="25" width="830" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.4121212" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.4111675" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -266,7 +293,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928674" weight="0.3248227" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928674" visible="true" weight="0.3248227" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.23305085" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -302,13 +329,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/_5_MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="51" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/factorial/Factorial.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -354,8 +374,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/_8_RadixSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
+        <state relative-caret-position="164">
           <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/challenges/MergeSortReversed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/_5_MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
         </state>
       </provider>
     </entry>

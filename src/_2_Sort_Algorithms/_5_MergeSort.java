@@ -10,7 +10,7 @@ public class _5_MergeSort {
         }
     }
 
-    public static void mergeSort(int[] array, int start, int end) {
+     static void mergeSort(int[] array, int start, int end) {
 
         if (end - start < 2) { //breaking condition is when we have 1 element array
             return;
@@ -24,7 +24,7 @@ public class _5_MergeSort {
     }
 
     //Merging step
-    public static void merge(int[] input, int start, int mid, int end) {
+     static void merge(int[] input, int start, int mid, int end) {
 
         //if the last element in the left partition is less or equal than the first element in the left partition
 //it means that all the elements in the left partition are <= than elements in the right partition, because both partitions are sorted
@@ -53,6 +53,7 @@ public class _5_MergeSort {
         //input - source array, i - start copying from position i, input - destination array
         //start+tempIndex - start-destination index, tempIndex - counted how many elements we handled
         //mid-i -number of elements we did not copy into the left array from the left partition
+         //start with the input array and then add start and temp index and copy the value to this index
         System.arraycopy(input, i, input, start + tempIndex, mid - i);
 
         //source - temp, target-input array, copy from start, length - tempIndex. We are only copying the elements we copied into the temp array, we are not copying entire tempArray
