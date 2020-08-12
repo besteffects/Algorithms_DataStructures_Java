@@ -1,5 +1,5 @@
 package _2_Sort_Algorithms;
-
+//unstable algorithm O (n log n) - base 2
 public class _6_QuickSort {
     public static void main(String[] args) {
         int[] array = {20, 35, -15, 7, 55, 1, -22};

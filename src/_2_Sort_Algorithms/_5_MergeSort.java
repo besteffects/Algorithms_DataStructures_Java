@@ -1,5 +1,5 @@
 package _2_Sort_Algorithms;
-
+//Stable algorithm
 public class _5_MergeSort {
     public static void main(String[] args) {
         int[] array = {20, 35, -15, 7, 55, 1, -22};
@@ -43,7 +43,7 @@ public class _5_MergeSort {
         while (i < mid && j < end) {
             //compare elements with indexes i with elements with indexes j and write the smaller of the two in temp array
             //if elements are equal, left element will be written first, algorithm is stable
-            temp[tempIndex++] = input[i] <= input[j] ? input[i++] : input[j++]; //fill temp array with sorted elements
+            temp[tempIndex++] = input[i] <= input[j] ? input[i++] : input[j++]; //fill temp array with sorted elements = make the sort stable!
         }
 
         //second optimization
@@ -53,7 +53,7 @@ public class _5_MergeSort {
         //input - source array, i - start copying from position i, input - destination array
         //start+tempIndex - start-destination index, tempIndex - counted how many elements we handled
         //mid-i -number of elements we did not copy into the left array from the left partition
-         //start with the input array and then add start and temp index and copy the value to this index
+         //start with the input array and then add start and temp index and copy the value to this index, mid -1 is 1. So we copy 1 element
         System.arraycopy(input, i, input, start + tempIndex, mid - i);
 
         //source - temp, target-input array, copy from start, length - tempIndex. We are only copying the elements we copied into the temp array, we are not copying entire tempArray
