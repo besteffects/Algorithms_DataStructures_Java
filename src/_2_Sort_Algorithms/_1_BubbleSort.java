@@ -41,7 +41,7 @@ public class _1_BubbleSort {
                     swap1(array, j, j+1);
                 }
 
-        System.out.println("Option1. Sorted array after the optimization: ");
+        System.out.println("Option2. Sorted array: ");
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }

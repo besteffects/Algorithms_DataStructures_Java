@@ -19,7 +19,7 @@ public class _3_InsertionSort {
                  i--) { //keep searching as long as an element in sorted partition is greater than one we want to insert
                 array[i] = array[i - 1]; //shift array to the beginning until it is sorted
             }
-            array[i]=selectedElement; //Example: assign -15 to array[0]
+            array[i]=selectedElement; //Example: assign -15 to array[0] find the correct position for selectedElement (to the front) after we shifted bigger elements to the right
         }
         System.out.println("Option1. Sorted array after the optimization: ");
         for (int i = 0; i < array.length; i++) {
