@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="aef2c581-6037-489b-b27b-cc283be95644" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_Sort_Algorithms/_1_BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_Sort_Algorithms/_1_BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_Sort_Algorithms/_3_InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_Sort_Algorithms/_3_InsertionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_2_Sort_Algorithms/challenges/InsertionSortRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_Sort_Algorithms/challenges/InsertionSortRecursion.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -67,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/challenges/InsertionSortRecursion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+            <state relative-caret-position="269">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -141,7 +139,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="749" />
     <option name="y" value="23" />
     <option name="width" value="700" />
@@ -301,8 +299,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="749" y="23" width="700" height="797" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="800" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.4096081" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -313,12 +310,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928674" visible="true" weight="0.3248227" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.23305085" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928674" weight="0.3248227" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41525424" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928674" weight="0.21468927" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49928674" visible="true" weight="0.42655367" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007133" side_tool="true" weight="0.32909605" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32907802" />
@@ -359,6 +356,36 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_2_Sort_Algorithms/challenges/InsertionSortRecursion.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_2_Sort_Algorithms/challenges/InsertionSortRecursion.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_2_Sort_Algorithms/challenges/InsertionSortRecursion.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_2_Sort_Algorithms/challenges/InsertionSortRecursion.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/_4_ShellSort.java">
@@ -443,8 +470,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/challenges/InsertionSortRecursion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        <state relative-caret-position="269">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
