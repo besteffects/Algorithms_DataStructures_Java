@@ -22,7 +22,7 @@ public class _8_RadixSort {
         int numItems = input.length;
 
         //create array that is big enough to hold all possible values. Length will be 10
-        int[] countArray = new int[radix];
+        int[] countArray = new int[radix]; //radix is the max amount of possible values
 
         //counts how many values have a certain digit in a position we are looking at
         for (int value : input) {
@@ -39,7 +39,7 @@ public class _8_RadixSort {
         for (int tempIndex = numItems - 1; tempIndex >= 0; tempIndex--) {
             //tempIndex starts in the end and moves right to left.
             //right to left preserves the ordering of duplicate values
-            //from the least significant digit to the most significant digit
+            //from the least significant digit to the most significant digit (from 1-th to 1000th)
             temp[--countArray[getDigit(position, input[tempIndex], radix)]] =
                     input[tempIndex];
         }
