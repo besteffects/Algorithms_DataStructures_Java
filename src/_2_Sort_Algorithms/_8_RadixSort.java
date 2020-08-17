@@ -12,7 +12,7 @@ public class _8_RadixSort {
     //0 is the rightmost position, the least significant digit
     // all the values should have same radix and same width
      static void radixSort(int[] input, int radix, int width) {  //radix -10, width - the number of digits in a value of an array (loops 4 times)
-        for (int i = 0; i < width; i++) { //zero is the rightmost position. here we are traversing position, from 0 tu 3, i=position
+        for (int i = 0; i < width; i++) { //zero is the rightmost position. here we are traversing position, from 0 to 3, i=position
             radixSingleSort(input, i, radix); //1000-th will be sorted last, 1-th - first
         }
     }
