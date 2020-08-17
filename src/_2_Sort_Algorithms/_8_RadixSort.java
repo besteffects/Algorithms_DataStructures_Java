@@ -11,13 +11,13 @@ public class _8_RadixSort {
 
     //0 is the rightmost position, the least significant digit
     // all the values should have same radix and same width
-    public static void radixSort(int[] input, int radix, int width) {
-        for (int i = 0; i < width; i++) {
+     static void radixSort(int[] input, int radix, int width) {  //radix -10, width - the number of digits in a value of an array (loops 4 times)
+        for (int i = 0; i < width; i++) { //zero is the rightmost position
             radixSingleSort(input, i, radix);
         }
     }
 
-    public static void radixSingleSort(int[] input, int position, int radix) {
+     static void radixSingleSort(int[] input, int position, int radix) {
         //stores how many items we are going to be sorting
         int numItems = input.length;
 
@@ -41,7 +41,7 @@ public class _8_RadixSort {
             //right to left preserves the ordering of duplicate values
             //from the least significant digit to the most significant digit (from 1-th to 1000th)
             temp[--countArray[getDigit(position, input[tempIndex], radix)]] =
-                    input[tempIndex];
+                    input[tempIndex]; //we decrement the value for the digit first, then we use that index as index of the temparray and we assign a value at input [tempIndex]
         }
 
         //copy back from the temporary array into the input array
@@ -50,8 +50,8 @@ public class _8_RadixSort {
         }
     }
 
-    public static int getDigit(int position, int value, int radix) {
-        return value / (int) Math.pow(radix, position) % radix; //(int) because we don't want a floating point value returned
+     static int getDigit(int position, int value, int radix) {
+        return value / (int) Math.pow(radix, position) % radix; //(int) because we don't want a floating point value returned, radix is always 10
         //Math.pow takes the first parameter and raises it to the second parameter
         //we pass in position 0 because we are starting from 0. 4725 for value and 10 for radix
         //0 position 4725/Math.pow(10,0)%10 = 4725/1 %10=472 and remainder 5, so we will return 5
