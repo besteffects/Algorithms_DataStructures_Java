@@ -3,7 +3,7 @@ package _3_Lists;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main<T> {
+public class _1_ArrayList<T> {
     public static void main(String[] args) {
         List<Employee> employeeList = new ArrayList<>();
         employeeList.add(new Employee("Jane", "Jones", 123));
