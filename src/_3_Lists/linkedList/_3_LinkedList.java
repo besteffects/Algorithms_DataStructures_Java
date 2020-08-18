@@ -9,10 +9,16 @@ import java.util.List;
 public class _3_LinkedList {
     public static void main(String[] args) {
 
-        List<Employee> employeeList = new LinkedList<>();
-        employeeList.add(new Employee("Jane", "Jones", 123));
-        employeeList.add(new Employee("John", "Doe", 4567));
-        employeeList.add(new Employee("Mary", "Smith", 22));
-        employeeList.add(new Employee("Mike", "Wilson", 3245));
+
+        Employee janeJones =new Employee("Jane", "Jones", 123);
+        Employee johnDoe= new Employee("John", "Doe", 4567);
+        Employee marySmith = new Employee("Mary", "Smith", 22);
+        Employee mikeWilson = new Employee("Mike", "Wilson", 3245);
+
+        EmployeeLinkedList list = new EmployeeLinkedList();
+        list.addToFront(janeJones);
+        list.addToFront(johnDoe);
+        list.addToFront(marySmith);
+        list.addToFront(mikeWilson);
     }
 }
