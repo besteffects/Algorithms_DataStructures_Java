@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aef2c581-6037-489b-b27b-cc283be95644" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/_3_Lists/linkedList/EmployeeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_3_Lists/linkedList/_3_LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,15 +19,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/_8_RadixSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/challenges/RaddixSortString.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -38,40 +31,21 @@
         <entry file="file://$PROJECT_DIR$/src/_3_Lists/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
               <folding>
-                <element signature="e#168#169#0" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
                 <element signature="e#678#679#0" expanded="true" />
                 <element signature="e#738#739#0" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#374#375#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-                <element signature="e#465#466#0" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_3_Lists/_2_Vector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_3_Lists/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,19 +54,53 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/challenges/InsertionSortRecursion.java">
+        <entry file="file://$PROJECT_DIR$/src/_3_Lists/linkedList/_3_LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/_3_InsertionSort.java">
+        <entry file="file://$PROJECT_DIR$/src/_3_Lists/linkedList/EmployeeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#119#120#0" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/_3_Lists/linkedList/EmployeeLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_3_Lists/_1_ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="11" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,13 +164,18 @@
         <option value="$PROJECT_DIR$/src/_2_Sort_Algorithms/challenges/RaddixSortString.java" />
         <option value="$PROJECT_DIR$/src/_3_Lists/Employee.java" />
         <option value="$PROJECT_DIR$/src/_3_Lists/Main.java" />
+        <option value="$PROJECT_DIR$/src/_3_Lists/_1_ArrayList.java" />
+        <option value="$PROJECT_DIR$/src/_3_Lists/_2_Vector.java" />
+        <option value="$PROJECT_DIR$/src/_3_Lists/_3_LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/_3_Lists/linkedList/_3_LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/_3_Lists/linkedList/EmployeeNode.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="693" />
-    <option name="y" value="23" />
-    <option name="width" value="747" />
+    <option name="x" value="691" />
+    <option name="y" value="24" />
+    <option name="width" value="749" />
     <option name="height" value="795" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -203,6 +216,13 @@
               <item name="Algorithms_DataStructures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="_3_Lists" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms_DataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms_DataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="_3_Lists" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedList" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithms_DataStructures" type="b2602c69:ProjectViewProjectNode" />
@@ -275,7 +295,7 @@
       <module name="Algorithms_DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_3_Lists.*" />
+          <option name="PATTERN" value="_3_Lists.linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -320,10 +340,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="565" y="23" width="958" height="795" extended-state="0" />
+    <frame x="691" y="24" width="749" height="795" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37663755" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37482318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -446,6 +466,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/_8_RadixSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/challenges/RaddixSortString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_3_Lists/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_3_Lists/_2_Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_3_Lists/linkedList/_3_LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_3_Lists/_1_ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="11" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/_7_CountingSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -467,56 +543,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/challenges/RaddixSortString.java">
+    <entry file="file://$PROJECT_DIR$/src/_3_Lists/linkedList/EmployeeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_2_Sort_Algorithms/_8_RadixSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_3_Lists/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_3_Lists/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_3_Lists/_2_Vector.java">
+    <entry file="file://$PROJECT_DIR$/src/_3_Lists/linkedList/EmployeeLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
         </state>
       </provider>
     </entry>
