@@ -16,33 +16,46 @@ public class EmployeeDoublyLinkedList {
         EmployeeDoublyNode node = new EmployeeDoublyNode(employee);
         node.setNext(head);
 
-        if (head==null){
-        tail=node;
-        }
-        else {
+        if (head == null) {
+            tail = node;
+        } else {
             head.setPrevious(node);
         }
         head = node;
         size++; //incrementing the size
     }
+//adds an employee to the end
+    public void addToEnd(Employee employee) {
+        //creating a new node
+        EmployeeDoublyNode node = new EmployeeDoublyNode(employee);
+        if (tail == null) { //test if a list is empty
+        } else {
+            tail.setNext(node); //set current tail next field to the node we are adding
+            node.setPrevious(tail); //set the previous node to what used to be the tail
+        }
+        tail=node;
+        size++;
 
-    public EmployeeDoublyNode removeFromFront(){
-        if (isEmpty()){
+
+    }
+
+    public EmployeeDoublyNode removeFromFront() {
+        if (isEmpty()) {
             return null;
         }
         EmployeeDoublyNode removeNode = head; // the item we will remove
-        head=head.getNext(); //point to the last element in list
+        head = head.getNext(); //point to the last element in list
         size--; //decrement the size because we now have one less item
         removeNode.setNext(null); //cleaning up the references. This step is not obligatory
         return removeNode;
     }
 
-    public int getSize(){
+    public int getSize() {
         return size;
     }
 
-    public boolean isEmpty(){
-        return head==null;
+    public boolean isEmpty() {
+        return head == null;
     }
 
     public void printList() {
