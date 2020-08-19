@@ -17,5 +17,16 @@ public class _3_LinkedListDoubly {
 
         list.printList();
         System.out.println("Doubly list size: " + list.getSize());
+
+        Employee billEnd = new Employee("Bill", "End", 78);
+        list.addToEnd(billEnd);
+        list.printList();
+        System.out.println(" List size after Bill was added to the end: " + list.getSize());
+        list.removeFromFront();
+        list.printList();
+        System.out.println(" List size after last item was removed from the front: " + list.getSize());
+        list.removeFromEnd();
+        list.printList();
+        System.out.println(" List size after last item was removed from the end: " + list.getSize());
     }
 }
