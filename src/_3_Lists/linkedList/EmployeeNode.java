@@ -29,4 +29,8 @@ public class EmployeeNode {
     public EmployeeNode(Employee employee) {
         this.employee = employee;
     }
+
+    public String toString(){
+        return employee.toString();
+    }
 }
