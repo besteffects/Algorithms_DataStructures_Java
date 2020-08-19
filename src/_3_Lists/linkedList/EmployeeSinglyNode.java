@@ -2,10 +2,10 @@ package _3_Lists.linkedList;
 
 import _3_Lists.Employee;
 
-public class EmployeeNode {
+public class EmployeeSinglyNode {
 
     private Employee employee;
-    private EmployeeNode next;
+    private EmployeeSinglyNode next;
 
     //constructor takes only employee because when we construct an instance we do not know what the next node will be
     //we to not need to set next to null in the constructor because it is the default value for object fields
@@ -17,16 +17,16 @@ public class EmployeeNode {
         this.employee = employee;
     }
 
-    public EmployeeNode getNext() {
+    public EmployeeSinglyNode getNext() {
         return next;
     }
 
     //set node location
-    public void setNext(EmployeeNode next) {
+    public void setNext(EmployeeSinglyNode next) {
         this.next = next;
     }
 
-    public EmployeeNode(Employee employee) {
+    public EmployeeSinglyNode(Employee employee) {
         this.employee = employee;
     }
 

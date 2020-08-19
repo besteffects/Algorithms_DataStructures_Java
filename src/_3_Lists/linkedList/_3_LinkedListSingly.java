@@ -2,11 +2,7 @@ package _3_Lists.linkedList;
 
 import _3_Lists.Employee;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-
-public class _3_LinkedList {
+public class _3_LinkedListSingly {
     public static void main(String[] args) {
 
 
@@ -15,7 +11,7 @@ public class _3_LinkedList {
         Employee marySmith = new Employee("Mary", "Smith", 22);
         Employee mikeWilson = new Employee("Mike", "Wilson", 3245);
 
-        EmployeeLinkedList list = new EmployeeLinkedList();
+        EmployeeSinglyLinkedList list = new EmployeeSinglyLinkedList();
 
         System.out.println("Is empty when no items added? "+ list.isEmpty());
 
