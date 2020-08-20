@@ -1,6 +1,6 @@
 package _3_Lists.challenges.challenge1;
 
-public class Employee {
+class Employee {
 
     private String firstName;
     private String lastName;

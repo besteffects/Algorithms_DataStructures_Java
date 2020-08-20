@@ -6,13 +6,12 @@ class EmployeeDoublyLinkedList {
     private EmployeeNode tail;
     private int size;
 
-    public void addToFront(Employee employee) {
+    void addToFront(Employee employee) {
         EmployeeNode node = new EmployeeNode(employee);
 
         if (head == null) {
             tail = node;
-        }
-        else {
+        } else {
             head.setPrevious(node);
             node.setNext(head);
         }
@@ -21,12 +20,11 @@ class EmployeeDoublyLinkedList {
         size++;
     }
 
-    public void addToEnd(Employee employee) {
+    void addToEnd(Employee employee) {
         EmployeeNode node = new EmployeeNode(employee);
         if (tail == null) {
             head = node;
-        }
-        else {
+        } else {
             tail.setNext(node);
             node.setPrevious(tail);
         }
@@ -35,18 +33,45 @@ class EmployeeDoublyLinkedList {
         size++;
     }
 
-    public boolean addBefore(Employee newEmployee, Employee existingEmployee) {
+    //new employee - add to the list, existingEmployee - existing employee in the list
+    //inserts new employee into the list right before the existing employee
+    boolean addBefore(Employee newEmployee, Employee existingEmployee) {
 
         // return true if you were able to successfully add the employee
         // into the list before the existing employee. Return false
         // if the existing employee doesn't exist in the list
 
-        // add your code here
-
-        return false;
+        //1 Check if a list is empty
+        if (head == null) {
+            return false;
+        }
+        //2 find the existing employee
+        EmployeeNode current = head;
+        while (current != null && !current.getEmployee().equals(existingEmployee)) {
+            current = current.getNext();
+        }
+        //if the employee we want to insert  before is not in the list we can't do anything
+        if (current == null) {
+            return false;
+        }
+        //3 Create employee nodes
+        EmployeeNode newNode = new EmployeeNode(newEmployee);
+        newNode.setPrevious(current.getPrevious()); //set new node's previous field
+        newNode.setNext(current);
+        current.setPrevious(newNode);
+        //4 Set head to new node if we insert new node before first element
+        if (head == current) {
+            head = newNode;
+        }
+        //5 set set next field of previous node to new node
+        else {
+            newNode.getPrevious().setNext(newNode);
+        }
+        size++;
+        return true;
     }
 
-    public EmployeeNode removeFromFront() {
+    EmployeeNode removeFromFront() {
         if (isEmpty()) {
             return null;
         }
@@ -55,8 +80,7 @@ class EmployeeDoublyLinkedList {
 
         if (head.getNext() == null) {
             tail = null;
-        }
-        else {
+        } else {
             head.getNext().setPrevious(null);
         }
 
@@ -66,7 +90,7 @@ class EmployeeDoublyLinkedList {
         return removedNode;
     }
 
-    public EmployeeNode removeFromEnd() {
+    EmployeeNode removeFromEnd() {
         if (isEmpty()) {
             return null;
         }
@@ -75,8 +99,7 @@ class EmployeeDoublyLinkedList {
 
         if (tail.getPrevious() == null) {
             head = null;
-        }
-        else {
+        } else {
             tail.getPrevious().setNext(null);
         }
 
@@ -86,15 +109,15 @@ class EmployeeDoublyLinkedList {
         return removedNode;
     }
 
-    public int getSize() {
+    int getSize() {
         return size;
     }
 
-    public boolean isEmpty() {
+    boolean isEmpty() {
         return head == null;
     }
 
-    public void printList() {
+    void printList() {
         EmployeeNode current = head;
         System.out.print("HEAD -> ");
         while (current != null) {

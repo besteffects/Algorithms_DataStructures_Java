@@ -1,5 +1,4 @@
-package _3_Lists.jdkLists;
-
+package _3_Lists.linkedList;
 import _3_Lists.Employee;
 
 import java.util.Iterator;

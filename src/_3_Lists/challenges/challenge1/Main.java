@@ -1,8 +1,5 @@
 package _3_Lists.challenges.challenge1;
 
-import _3_Lists.challenges.challenge1.Employee;
-import _3_Lists.challenges.challenge1.EmployeeDoublyLinkedList;
-
 public class Main {
 
     public static void main(String[] args) {
