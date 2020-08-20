@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aef2c581-6037-489b-b27b-cc283be95644" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_3_Lists/challenges/challenge1/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_3_Lists/challenges/challenge1/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_3_Lists/challenges/challenge1/EmployeeDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_3_Lists/challenges/challenge1/EmployeeDoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_3_Lists/challenges/challenge1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_3_Lists/challenges/challenge1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_3_Lists/jdkLists/JDKlinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_3_Lists/linkedList/JDKlinkedList.java" afterDir="false" />
-    </list>
+    <list default="true" id="aef2c581-6037-489b-b27b-cc283be95644" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/_3_Lists/challenges/challenge1/EmployeeDoublyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1665">
-              <caret line="111" column="4" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="4" />
+            <state relative-caret-position="-175">
+              <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
               <folding>
                 <element signature="e#1964#1965#0" expanded="true" />
                 <element signature="e#1991#1992#0" expanded="true" />
@@ -132,7 +126,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_3_Lists/challenges/challenge1/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -257,14 +251,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="_3_Lists" type="462c0819:PsiDirectoryNode" />
               <item name="challenges" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms_DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms_DataStructures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_3_Lists" type="462c0819:PsiDirectoryNode" />
-              <item name="challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="challenge1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithms_DataStructures" type="b2602c69:ProjectViewProjectNode" />
@@ -397,7 +383,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="795" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29756796" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -413,7 +398,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928674" weight="0.22332859" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928674" visible="true" weight="0.22332859" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007133" side_tool="true" weight="0.32909605" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32859176" />
@@ -690,23 +675,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/_3_Lists/challenges/challenge1/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/_3_Lists/challenges/challenge1/EmployeeDoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1665">
-          <caret line="111" column="4" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="4" />
+        <state relative-caret-position="-175">
+          <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
           <folding>
             <element signature="e#1964#1965#0" expanded="true" />
             <element signature="e#1991#1992#0" expanded="true" />
             <element signature="e#2023#2024#0" expanded="true" />
             <element signature="e#2058#2059#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_3_Lists/challenges/challenge1/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
         </state>
       </provider>
     </entry>
