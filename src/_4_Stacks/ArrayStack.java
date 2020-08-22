@@ -1,6 +1,7 @@
 package _4_Stacks;
 
 import java.util.EmptyStackException;
+//If we do not know the size of an array or need to resize our collection frequently, we better use LinkedList implementation of Stack
 
 public class ArrayStack {
 
@@ -12,7 +13,7 @@ public class ArrayStack {
         stack = new Employee[capacity];
     }
 
-    //adding an element to stack
+    //adding an element to stack. Worst case in O(n)
     public void push(Employee employee) { //O(n) because in a worst case we have to copy all existing elements
         if (top == stack.length) { //check if the stack is full
 //need to resize the backing array
@@ -23,7 +24,7 @@ public class ArrayStack {
         stack[top++] = employee; //assign the employee to the top and increment top
     }
 
-    //deleting an element
+    //deleting an element O(1) if not resizing an array and O(n) if resizing
     public Employee pop() {
         if (isEmpty()) {
             throw new EmptyStackException(); //throw exception if stack is empty
@@ -34,7 +35,7 @@ public class ArrayStack {
         return employee;
     }
 
-    //get an element from the top of a stack without removing it
+    //get an element from the top of a stack without removing it. Always O(1) because no of resizing
     public Employee peek() {
         if (isEmpty()) {
             throw new EmptyStackException();
