@@ -9,12 +9,12 @@ public class ArrayStack {
     private int top; // index of top position of the stack (initialized to 0 by default)
 
     //constructor for defining the capacity of the stack
-    public ArrayStack(int capacity) { //capacity - the maximum number of items we can store in stack
+     ArrayStack(int capacity) { //capacity - the maximum number of items we can store in stack
         stack = new Employee[capacity];
     }
 
     //adding an element to stack. Worst case in O(n)
-    public void push(Employee employee) { //O(n) because in a worst case we have to copy all existing elements
+     void push(Employee employee) { //O(n) because in a worst case we have to copy all existing elements
         if (top == stack.length) { //check if the stack is full
 //need to resize the backing array
             Employee[] newArray = new Employee[2 * stack.length]; //double the size of the array if the stack is full
@@ -25,7 +25,7 @@ public class ArrayStack {
     }
 
     //deleting an element O(1) if not resizing an array and O(n) if resizing
-    public Employee pop() {
+     Employee pop() {
         if (isEmpty()) {
             throw new EmptyStackException(); //throw exception if stack is empty
         }
