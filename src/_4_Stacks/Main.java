@@ -26,11 +26,14 @@ public class Main {
 
         System.out.println("Linked list stack: ");
         LinkedStack lstack = new LinkedStack();
-        lstack.push(janeJones);
+        lstack.push(janeJones); //add items to stack
         lstack.push(johnDoe);
         lstack.push(marySmith);
         lstack.push(mikeWilson);
         lstack.push(billEnd);
         lstack.printLStack();
+
+        System.out.println(lstack.pop()); //remove an item from the head of the lsit
+        System.out.println(lstack.peek()); //return the head of the list
     }
 }
