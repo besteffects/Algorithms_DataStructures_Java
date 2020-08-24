@@ -21,11 +21,11 @@ public class Palindrome {
         LinkedList<Character> stack = new LinkedList<Character>();
         StringBuilder stringNoPunctuation = new StringBuilder(string.length());
         String lowerCase = string.toLowerCase();
-        for (int i = 0; i < lowerCase.length(); i++) {
+        for (int i = 0; i < lowerCase.length(); i++) {  //loop through the string from character to character
             char c = lowerCase.charAt(i);
             if (c >= 'a' && c <= 'z') {
-                stringNoPunctuation.append(c);
-                stack.push(c);
+                stringNoPunctuation.append(c); //append a-z characters to string, with all punctuation and spaces removed
+                stack.push(c);  //stack without all punctuation and all spaces
             }
         }
         StringBuilder reversedString = new StringBuilder(stack.size());
